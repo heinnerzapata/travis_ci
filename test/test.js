@@ -1,5 +1,6 @@
-var assert = require('assert');
+'use strict';
 
+var assert = require('assert');
 var hzFunctions =  require('./../index.js');
 
 describe('f_01()', () => {
