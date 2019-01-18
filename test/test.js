@@ -13,7 +13,7 @@ describe('f_01()', () => {
 describe('f_02()', () => {
   it('Should return double for valñue', () => {
     const result = hzFunctions.f_02(2);
-    assert.deepEqual(result, 4);
+    assert.deepEqual(result, 2);
   });
 });
 
