@@ -4,7 +4,7 @@
   "description": "HZ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/heinnerzapata/travis_ci/issues"
   },
-  "homepage": "https://github.com/heinnerzapata/travis_ci#readme"
+  "homepage": "https://github.com/heinnerzapata/travis_ci#readme",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
 }
